@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26472D76115EF097689288C1 /* libPods-Amazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 712147A1044C8373424C40C4 /* libPods-Amazon.a */; };
+		383867251B26D35500C2EE10 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 383867241B26D35500C2EE10 /* Controllers */; };
+		3838672E1B26D47B00C2EE10 /* PGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383867271B26D47B00C2EE10 /* PGFirstViewController.m */; };
+		3838672F1B26D47B00C2EE10 /* PGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383867291B26D47B00C2EE10 /* PGSecondViewController.m */; };
+		383867301B26D47B00C2EE10 /* PGSideDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838672B1B26D47B00C2EE10 /* PGSideDrawerController.m */; };
+		383867311B26D47B00C2EE10 /* PGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3838672D1B26D47B00C2EE10 /* PGViewController.m */; };
+		3839D9531B24404C001B23E0 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3839D9521B24404C001B23E0 /* Entitlements.plist */; };
+		385417811B256F320053617D /* S3ObjectList.m in Sources */ = {isa = PBXBuildFile; fileRef = 385417801B256F320053617D /* S3ObjectList.m */; };
+		389163401B25C9E700557153 /* DisplayImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3891633F1B25C9E700557153 /* DisplayImage.m */; };
 		38BB286F1B242FD7005541D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB286E1B242FD7005541D1 /* main.m */; };
 		38BB28721B242FD7005541D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB28711B242FD7005541D1 /* AppDelegate.m */; };
 		38BB28751B242FD7005541D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB28741B242FD7005541D1 /* ViewController.m */; };
@@ -27,6 +36,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383867241B26D35500C2EE10 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controllers; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers"; sourceTree = "<group>"; };
+		383867261B26D47B00C2EE10 /* PGFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGFirstViewController.h; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGFirstViewController.h"; sourceTree = "<group>"; };
+		383867271B26D47B00C2EE10 /* PGFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGFirstViewController.m; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGFirstViewController.m"; sourceTree = "<group>"; };
+		383867281B26D47B00C2EE10 /* PGSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGSecondViewController.h; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGSecondViewController.h"; sourceTree = "<group>"; };
+		383867291B26D47B00C2EE10 /* PGSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGSecondViewController.m; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGSecondViewController.m"; sourceTree = "<group>"; };
+		3838672A1B26D47B00C2EE10 /* PGSideDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGSideDrawerController.h; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGSideDrawerController.h"; sourceTree = "<group>"; };
+		3838672B1B26D47B00C2EE10 /* PGSideDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGSideDrawerController.m; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGSideDrawerController.m"; sourceTree = "<group>"; };
+		3838672C1B26D47B00C2EE10 /* PGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGViewController.h; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGViewController.h"; sourceTree = "<group>"; };
+		3838672D1B26D47B00C2EE10 /* PGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGViewController.m; path = "../../../Downloads/SideDrawerExample-iOS-master/SideDrawerExample/Controllers/PGViewController.m"; sourceTree = "<group>"; };
+		3839D9521B24404C001B23E0 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		3854177F1B256F320053617D /* S3ObjectList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S3ObjectList.h; sourceTree = "<group>"; };
+		385417801B256F320053617D /* S3ObjectList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S3ObjectList.m; sourceTree = "<group>"; };
+		3891633E1B25C9E700557153 /* DisplayImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayImage.h; sourceTree = "<group>"; };
+		3891633F1B25C9E700557153 /* DisplayImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayImage.m; sourceTree = "<group>"; };
 		38BB28691B242FD7005541D1 /* Amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BB286D1B242FD7005541D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BB286E1B242FD7005541D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +63,10 @@
 		38BB28821B242FD7005541D1 /* AmazonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BB28871B242FD7005541D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BB28881B242FD7005541D1 /* AmazonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonTests.m; sourceTree = "<group>"; };
+		38D60F371B24478C00E34CFD /* libPods-Amazon-AWSEC2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Amazon-AWSEC2.a"; path = "Pods/../build/Debug-iphoneos/libPods-Amazon-AWSEC2.a"; sourceTree = "<group>"; };
+		3FF2F5D45C571A287766C25A /* Pods-Amazon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amazon/Pods-Amazon.debug.xcconfig"; sourceTree = "<group>"; };
+		62B32360D9648A3A81723F71 /* Pods-Amazon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amazon/Pods-Amazon.release.xcconfig"; sourceTree = "<group>"; };
+		712147A1044C8373424C40C4 /* libPods-Amazon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Amazon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26472D76115EF097689288C1 /* libPods-Amazon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2601A6A4AC39A04EEB8F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D60F371B24478C00E34CFD /* libPods-Amazon-AWSEC2.a */,
+				712147A1044C8373424C40C4 /* libPods-Amazon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3854177B1B256E0A0053617D /* S3ObjectList */ = {
+			isa = PBXGroup;
+			children = (
+				383867241B26D35500C2EE10 /* Controllers */,
+				3854177F1B256F320053617D /* S3ObjectList.h */,
+				385417801B256F320053617D /* S3ObjectList.m */,
+			);
+			name = S3ObjectList;
+			sourceTree = "<group>";
+		};
 		38BB28601B242FD7005541D1 = {
 			isa = PBXGroup;
 			children = (
+				38D60F391B2448EE00E34CFD /* AmazonCreds */,
+				3839D9521B24404C001B23E0 /* Entitlements.plist */,
 				38BB286B1B242FD7005541D1 /* Amazon */,
 				38BB28851B242FD7005541D1 /* AmazonTests */,
 				38BB286A1B242FD7005541D1 /* Products */,
+				B5B41BB08014CEA0DA2112E5 /* Pods */,
+				1F2601A6A4AC39A04EEB8F77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +132,15 @@
 		38BB286B1B242FD7005541D1 /* Amazon */ = {
 			isa = PBXGroup;
 			children = (
+				383867261B26D47B00C2EE10 /* PGFirstViewController.h */,
+				383867271B26D47B00C2EE10 /* PGFirstViewController.m */,
+				383867281B26D47B00C2EE10 /* PGSecondViewController.h */,
+				383867291B26D47B00C2EE10 /* PGSecondViewController.m */,
+				3838672A1B26D47B00C2EE10 /* PGSideDrawerController.h */,
+				3838672B1B26D47B00C2EE10 /* PGSideDrawerController.m */,
+				3838672C1B26D47B00C2EE10 /* PGViewController.h */,
+				3838672D1B26D47B00C2EE10 /* PGViewController.m */,
+				3854177B1B256E0A0053617D /* S3ObjectList */,
 				38BB28701B242FD7005541D1 /* AppDelegate.h */,
 				38BB28711B242FD7005541D1 /* AppDelegate.m */,
 				38BB28731B242FD7005541D1 /* ViewController.h */,
@@ -89,6 +149,8 @@
 				38BB28791B242FD7005541D1 /* Images.xcassets */,
 				38BB287B1B242FD7005541D1 /* LaunchScreen.xib */,
 				38BB286C1B242FD7005541D1 /* Supporting Files */,
+				3891633E1B25C9E700557153 /* DisplayImage.h */,
+				3891633F1B25C9E700557153 /* DisplayImage.m */,
 			);
 			path = Amazon;
 			sourceTree = "<group>";
@@ -119,6 +181,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38D60F391B2448EE00E34CFD /* AmazonCreds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AmazonCreds;
+			sourceTree = "<group>";
+		};
+		B5B41BB08014CEA0DA2112E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2F5D45C571A287766C25A /* Pods-Amazon.debug.xcconfig */,
+				62B32360D9648A3A81723F71 /* Pods-Amazon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38BB288C1B242FD7005541D1 /* Build configuration list for PBXNativeTarget "Amazon" */;
 			buildPhases = (
+				0FDE5233E156E9A2F07B028B /* Check Pods Manifest.lock */,
 				38BB28651B242FD7005541D1 /* Sources */,
 				38BB28661B242FD7005541D1 /* Frameworks */,
 				38BB28671B242FD7005541D1 /* Resources */,
+				FAD7A9F4EF6C6E5A00C8806D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383867251B26D35500C2EE10 /* Controllers in Resources */,
+				3839D9531B24404C001B23E0 /* Entitlements.plist in Resources */,
 				38BB28781B242FD7005541D1 /* Main.storyboard in Resources */,
 				38BB287D1B242FD7005541D1 /* LaunchScreen.xib in Resources */,
 				38BB287A1B242FD7005541D1 /* Images.xcassets in Resources */,
@@ -214,14 +296,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FDE5233E156E9A2F07B028B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD7A9F4EF6C6E5A00C8806D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amazon/Pods-Amazon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38BB28651B242FD7005541D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383867301B26D47B00C2EE10 /* PGSideDrawerController.m in Sources */,
+				3838672E1B26D47B00C2EE10 /* PGFirstViewController.m in Sources */,
 				38BB28751B242FD7005541D1 /* ViewController.m in Sources */,
 				38BB28721B242FD7005541D1 /* AppDelegate.m in Sources */,
+				383867311B26D47B00C2EE10 /* PGViewController.m in Sources */,
+				3838672F1B26D47B00C2EE10 /* PGSecondViewController.m in Sources */,
+				385417811B256F320053617D /* S3ObjectList.m in Sources */,
 				38BB286F1B242FD7005541D1 /* main.m in Sources */,
+				389163401B25C9E700557153 /* DisplayImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +401,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -299,10 +422,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.1;
 			};
 			name = Debug;
 		};
@@ -323,7 +446,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -336,29 +461,41 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		38BB288D1B242FD7005541D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF2F5D45C571A287766C25A /* Pods-Amazon.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Amazon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		38BB288E1B242FD7005541D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B32360D9648A3A81723F71 /* Pods-Amazon.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Amazon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +553,7 @@
 				38BB288E1B242FD7005541D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38BB288F1B242FD7005541D1 /* Build configuration list for PBXNativeTarget "AmazonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +562,7 @@
 				38BB28911B242FD7005541D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

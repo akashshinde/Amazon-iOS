@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate>
+
+@property (nonatomic,readwrite) NSArray *bucketList;
+@property (nonatomic,retain) NSString *selectedBucketName;
+@property (nonatomic,retain) UIImage *selectedImage;
 
 
 @end

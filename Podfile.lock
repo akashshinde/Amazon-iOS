@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AWSCore (2.1.1):
+    - Bolts (~> 1.1.0)
+    - GZIP (~> 1.0.3)
+    - Mantle (~> 1.4)
+    - Reachability (~> 3.1)
+    - UICKeyChainStore (~> 2.0)
+    - XMLDictionary (~> 1.4.0)
+  - AWSEC2 (2.1.1):
+    - AWSCore (= 2.1.1)
+    - Bolts (~> 1.1.0)
+    - Mantle (~> 1.4)
+  - AWSS3 (2.1.1):
+    - AWSCore (= 2.1.1)
+    - Bolts (~> 1.1.0)
+    - Mantle (~> 1.4)
+    - TMCache (~> 1.2.1)
+  - Bolts (1.1.5):
+    - Bolts/AppLinks (= 1.1.5)
+    - Bolts/Tasks (= 1.1.5)
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - Colours (5.6.2)
+  - GZIP (1.0.3)
+  - Mantle (1.5.4):
+    - Mantle/extobjc (= 1.5.4)
+  - Mantle/extobjc (1.5.4)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - Reachability (3.2)
+  - TMCache (1.2.4)
+  - UICKeyChainStore (2.0.5)
+  - XMLDictionary (1.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AWSEC2
+  - AWSS3
+  - Colours
+  - MMDrawerController (~> 0.5)
+  - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AWSCore: 0e82eabc27a96d765b1e2ad4d30b96c1cd298300
+  AWSEC2: 8ffacce17f49dd121ab18d468fae2db5db408500
+  AWSS3: 891d269735be0f3c63eab5a2d1ee9d788f2c64ee
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  Colours: 0afd4c3429656880fd4cff350ca3bf0ab86ca348
+  GZIP: f0863fda354e8f83316508c0a2c7bbe385e39129
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TMCache: a93984b045a5ee84bd8941bd5e0b54296059cc52
+  UICKeyChainStore: a389515ca090d4d49780fd563fec961571caa92b
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+
+COCOAPODS: 0.37.2

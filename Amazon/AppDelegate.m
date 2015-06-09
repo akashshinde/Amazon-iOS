@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "AWSCredentialsProvider.h"
+#import "AWSService.h"
+#import "AWSCredentialsProvider.h"
+#import <AWSEC2.h>
+
+
 
 @interface AppDelegate ()
 
@@ -16,7 +22,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+  /*  AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc] initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:e812cfcd-e02c-42c0-b75a-3216db328ec9"];
+    */
+    
+
+    AWSStaticCredentialsProvider *credentials = [[AWSStaticCredentialsProvider alloc]initWithAccessKey:@"AKIAICSEGOA3XRLIK7MA" secretKey:@"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"];
+    
+    AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSEast1
+                                                                         credentialsProvider:credentials];
+    [AWSServiceManager defaultServiceManager].defaultServiceConfiguration = configuration;
+
     return YES;
 }
 
