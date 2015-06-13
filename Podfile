@@ -7,6 +7,7 @@ pod 'AWSS3'
 pod 'UICKeyChainStore'
 pod 'Colours'
 pod "AFNetworking", "~> 2.0"
+pod "CSStickyHeaderFlowLayout"
 pod 'MMDrawerController', '~> 0.5'
 
 end

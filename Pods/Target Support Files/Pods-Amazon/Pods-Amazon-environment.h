@@ -84,6 +84,12 @@
 #define COCOAPODS_VERSION_MINOR_Bolts_Tasks 1
 #define COCOAPODS_VERSION_PATCH_Bolts_Tasks 5
 
+// CSStickyHeaderFlowLayout
+#define COCOAPODS_POD_AVAILABLE_CSStickyHeaderFlowLayout
+#define COCOAPODS_VERSION_MAJOR_CSStickyHeaderFlowLayout 0
+#define COCOAPODS_VERSION_MINOR_CSStickyHeaderFlowLayout 2
+#define COCOAPODS_VERSION_PATCH_CSStickyHeaderFlowLayout 7
+
 // Colours
 #define COCOAPODS_POD_AVAILABLE_Colours
 #define COCOAPODS_VERSION_MAJOR_Colours 5

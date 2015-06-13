@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -30,6 +31,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Q3X-SS-fh4"/>
+                    <connections>
+                        <segue destination="nRh-bc-fxA" kind="show" identifier="addBucket" id="ar5-bx-xXe"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9f4-Mx-opU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -179,7 +183,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <sections>
-                            <tableViewSection id="qpc-uT-D0z">
+                            <tableViewSection id="bRz-Yy-VGy">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="4h0-J3-Q7d" style="IBUITableViewCellStyleDefault" id="kPr-5m-Kbs">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -240,11 +244,68 @@
                             <outlet property="delegate" destination="kPl-OM-42T" id="dd2-zw-J7D"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="kdY-H7-PQn"/>
+                    <connections>
+                        <outlet property="tableView" destination="WnG-Gy-cYt" id="HKb-Sa-NNV"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6d0-bp-Oyi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2049" y="22"/>
+            <point key="canvasLocation" x="1972" y="-104"/>
+        </scene>
+        <!--Add Bucket View Controller-->
+        <scene sceneID="mUU-gh-dWV">
+            <objects>
+                <viewController restorationIdentifier="addBucket" storyboardIdentifier="addBucket" id="nRh-bc-fxA" customClass="AddBucketViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="feP-bU-02I"/>
+                        <viewControllerLayoutGuide type="bottom" id="gWH-sz-FCG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="addBucket" id="0SS-Td-fe7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Bucket Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYM-hU-JZz">
+                                <rect key="frame" x="28" y="80" width="220" height="21"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                <color key="textColor" red="0.30980393290519714" green="0.4901961088180542" blue="0.17254902422428131" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9vf-Xk-2iy">
+                                <rect key="frame" x="28" y="109" width="546" height="30"/>
+                                <color key="textColor" red="0.47843140363693237" green="0.32156863808631897" blue="0.13333334028720856" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xM-Je-GAB">
+                                <rect key="frame" x="277" y="147" width="46" height="30"/>
+                                <state key="normal" title="Create">
+                                    <color key="titleColor" red="0.19215686274509805" green="0.35294117647058826" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createBucket:" destination="nRh-bc-fxA" eventType="touchUpInside" id="HP5-x4-pTL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gWH-sz-FCG" firstAttribute="top" secondItem="3xM-Je-GAB" secondAttribute="bottom" constant="37" id="3hO-mC-GfY"/>
+                            <constraint firstItem="9vf-Xk-2iy" firstAttribute="top" secondItem="eYM-hU-JZz" secondAttribute="bottom" constant="8" id="HUc-Wv-reW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9vf-Xk-2iy" secondAttribute="trailing" constant="10" id="RAe-8J-Mcx"/>
+                            <constraint firstItem="eYM-hU-JZz" firstAttribute="top" secondItem="feP-bU-02I" secondAttribute="bottom" constant="16" id="ggQ-hV-u87"/>
+                            <constraint firstItem="9vf-Xk-2iy" firstAttribute="leading" secondItem="0SS-Td-fe7" secondAttribute="leadingMargin" constant="12" id="tJQ-Tl-3DB"/>
+                            <constraint firstItem="3xM-Je-GAB" firstAttribute="leading" secondItem="0SS-Td-fe7" secondAttribute="leadingMargin" constant="10" id="vcC-u7-9nv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3xM-Je-GAB" secondAttribute="trailing" constant="10" id="xK8-Vd-emA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="createBucket" destination="3xM-Je-GAB" id="bst-YY-kvT"/>
+                        <outlet property="nameInput" destination="9vf-Xk-2iy" id="z5v-8D-NJI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xdi-zI-4cB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1875" y="2257"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4RE-iJ-UrQ">

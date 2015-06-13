@@ -43,6 +43,7 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.1.5)
   - Colours (5.6.2)
+  - CSStickyHeaderFlowLayout (0.2.7)
   - GZIP (1.0.3)
   - Mantle (1.5.4):
     - Mantle/extobjc (= 1.5.4)
@@ -69,6 +70,7 @@ DEPENDENCIES:
   - AWSEC2
   - AWSS3
   - Colours
+  - CSStickyHeaderFlowLayout
   - MMDrawerController (~> 0.5)
   - UICKeyChainStore
 
@@ -79,6 +81,7 @@ SPEC CHECKSUMS:
   AWSS3: 891d269735be0f3c63eab5a2d1ee9d788f2c64ee
   Bolts: aac24961496d504aa56fc267cde95162a71bac39
   Colours: 0afd4c3429656880fd4cff350ca3bf0ab86ca348
+  CSStickyHeaderFlowLayout: 739445e36fd96ab2cee9b9826a902396567fb6a5
   GZIP: f0863fda354e8f83316508c0a2c7bbe385e39129
   Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
