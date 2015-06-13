@@ -49,7 +49,7 @@
     self.navigationController.navigationBar.barTintColor = [UIColor colorFromHexString:@"#3D5467"];
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.tintColor = [UIColor colorFromHexString:@"#A3C4BC"];
-    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor colorFromHexString:@"#A3C4BC"] forKey:NSForegroundColorAttributeName];
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor colorFromHexString:@"#ADC6C4"] forKey:NSForegroundColorAttributeName];
     [self setupLeftMenuButton];
     NSLog(@"Added files ");
     self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;

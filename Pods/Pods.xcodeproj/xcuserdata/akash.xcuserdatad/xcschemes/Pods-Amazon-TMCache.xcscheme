@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DEDC5F7BFD311B553086A44E"
+               BlueprintIdentifier = "5FA8189F1223771A3066882C"
                BuildableName = "libPods-Amazon-TMCache.a"
                BlueprintName = "Pods-Amazon-TMCache"
                ReferencedContainer = "container:Pods.xcodeproj">

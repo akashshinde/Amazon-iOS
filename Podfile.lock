@@ -48,6 +48,7 @@ PODS:
   - Mantle (1.5.4):
     - Mantle/extobjc (= 1.5.4)
   - Mantle/extobjc (1.5.4)
+  - MBProgressHUD (0.9.1)
   - MMDrawerController (0.6.0):
     - MMDrawerController/Core (= 0.6.0)
     - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
@@ -71,6 +72,7 @@ DEPENDENCIES:
   - AWSS3
   - Colours
   - CSStickyHeaderFlowLayout
+  - MBProgressHUD (~> 0.9.1)
   - MMDrawerController (~> 0.5)
   - UICKeyChainStore
 
@@ -84,6 +86,7 @@ SPEC CHECKSUMS:
   CSStickyHeaderFlowLayout: 739445e36fd96ab2cee9b9826a902396567fb6a5
   GZIP: f0863fda354e8f83316508c0a2c7bbe385e39129
   Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   TMCache: a93984b045a5ee84bd8941bd5e0b54296059cc52

@@ -9,7 +9,7 @@ pod 'Colours'
 pod "AFNetworking", "~> 2.0"
 pod "CSStickyHeaderFlowLayout"
 pod 'MMDrawerController', '~> 0.5'
-
+pod 'MBProgressHUD', '~> 0.9.1'
 end
 
 target 'AmazonTests' do

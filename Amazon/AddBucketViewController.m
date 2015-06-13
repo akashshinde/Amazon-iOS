@@ -11,7 +11,7 @@
 #import "Colours.h"
 #import "UIViewController+MMDrawerController.h"
 #import "PGSideDrawerController.h"
-
+#import "MBProgressHUD.h"
 
 @interface AddBucketViewController ()
 
@@ -70,10 +70,15 @@
 
 -(void)showAlertWithMessage:(NSString *)message andWithResult:(NSString *) result {
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:result message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-    [alertView show];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [MBProgressHUD hideHUDForView:self.view animated:YES];
+        [alertView show];
+    });
+
 }
 
 - (IBAction)createBucket:(UIButton *)sender {
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [[[AWSS3 defaultS3] createBucket:[self createBucketWithName:self.nameInput.text withLocation:AWSS3BucketLocationConstraintSAEast1 andPermission:AWSS3BucketCannedACLPublicRead]]
      continueWithBlock:^id(BFTask *task) {
          NSLog(@"result is %@",task.result);

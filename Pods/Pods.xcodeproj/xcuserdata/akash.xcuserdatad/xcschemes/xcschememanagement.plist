@@ -44,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Amazon-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Amazon-MMDrawerController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -82,77 +87,82 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>015F438AC7CE872E24DC7AE2</key>
+		<key>0BCCBF144766C6B611D155A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2E25D7AFF6453FAFB518D05C</key>
+		<key>173DDF8B6C9FD8540F59EF50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>35A1FA8B643ED15DF4831D49</key>
+		<key>2DD80CCFC2DDBEE86E953D70</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>376780D792F2982A69ED296F</key>
+		<key>467E1AC188A42D15E82E10F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76D39A6CC5C159DC4B914A87</key>
+		<key>4A678BFD9A035A8C068EB6AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9654371B88BDD65612D407D6</key>
+		<key>4FDA2197B94DC5E4DF19CA9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98568C5C96806D54B50E7A5B</key>
+		<key>5FA8189F1223771A3066882C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A14B501DA563314570B48CA6</key>
+		<key>6953A00340F8FC57DFBA4A07</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF6A43F1DEB007FD495D9A75</key>
+		<key>6BE80B47CEFEE20C40FDF00E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD847B74FD1812316362CC9C</key>
+		<key>7DCACF7C77E451707F832D80</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF77783850F8D8A112FB5EB8</key>
+		<key>95398BEFA68926F5F744290C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DEDC5F7BFD311B553086A44E</key>
+		<key>A9BA24FD2065F2E5A8F83FEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DFC609B536D7265D4C9BF7E8</key>
+		<key>AA24DDE80E1C33D160DA34D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4FCA5681AA9F3A62DD6ABCF</key>
+		<key>CEB3543746A8C44411889B2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC290489039405C5A5F50CD7</key>
+		<key>D11F1CEA0BD3B37949484575</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6026F7D5AE7CDFAA552CDE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
