@@ -8,12 +8,15 @@
 
 #import "S3ObjectList.h"
 #import "AWSS3Service.h"
+#import "MBProgressHUD.h"
 
 @implementation S3ObjectList
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+    NSLog(@"bucket name is %@",self.bucketName);
     self.navigationItem.title = self.bucketName;
+    
  //   self.navigationItem.leftItemsSupplementBackButton = YES;
 
     
@@ -22,6 +25,7 @@
 
 
 -(BFTask *)listS3Objects{
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     AWSS3 *s3Instance = [AWSS3 defaultS3];
     AWSS3ListObjectsRequest *objectsRequest = [[AWSS3ListObjectsRequest alloc] init];
     objectsRequest.bucket = self.bucketName;
@@ -31,6 +35,7 @@
             AWSS3ListObjectsOutput *output = task.result;
             self.objectList = output.contents;
             dispatch_sync(dispatch_get_main_queue(), ^{
+                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
                 [self.tableView reloadData];
             });
 

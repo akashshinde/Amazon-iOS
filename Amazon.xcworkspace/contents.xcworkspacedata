@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:storehouse.plist">
+   </FileRef>
+   <FileRef
       location = "group:Amazon.xcodeproj">
    </FileRef>
    <FileRef

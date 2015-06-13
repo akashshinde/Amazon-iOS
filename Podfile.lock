@@ -42,9 +42,11 @@ PODS:
   - Bolts/AppLinks (1.1.5):
     - Bolts/Tasks
   - Bolts/Tasks (1.1.5)
+  - CBStoreHouseRefreshControl (1.0)
   - Colours (5.6.2)
   - CSStickyHeaderFlowLayout (0.2.7)
   - GZIP (1.0.3)
+  - HexColors (2.2.1)
   - Mantle (1.5.4):
     - Mantle/extobjc (= 1.5.4)
   - Mantle/extobjc (1.5.4)
@@ -63,6 +65,8 @@ PODS:
     - MMDrawerController/Core
   - Reachability (3.2)
   - TMCache (1.2.4)
+  - TSMessages (0.9.12):
+    - HexColors
   - UICKeyChainStore (2.0.5)
   - XMLDictionary (1.4)
 
@@ -70,10 +74,12 @@ DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - AWSEC2
   - AWSS3
+  - CBStoreHouseRefreshControl
   - Colours
   - CSStickyHeaderFlowLayout
   - MBProgressHUD (~> 0.9.1)
   - MMDrawerController (~> 0.5)
+  - TSMessages
   - UICKeyChainStore
 
 SPEC CHECKSUMS:
@@ -82,14 +88,17 @@ SPEC CHECKSUMS:
   AWSEC2: 8ffacce17f49dd121ab18d468fae2db5db408500
   AWSS3: 891d269735be0f3c63eab5a2d1ee9d788f2c64ee
   Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  CBStoreHouseRefreshControl: a814bd725e74ff4c1e8dd96eb02358199b0da04f
   Colours: 0afd4c3429656880fd4cff350ca3bf0ab86ca348
   CSStickyHeaderFlowLayout: 739445e36fd96ab2cee9b9826a902396567fb6a5
   GZIP: f0863fda354e8f83316508c0a2c7bbe385e39129
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
   Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   TMCache: a93984b045a5ee84bd8941bd5e0b54296059cc52
+  TSMessages: 2a52642128d7ab15b46930c810b9c9403a2b58f3
   UICKeyChainStore: a389515ca090d4d49780fd563fec961571caa92b
   XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
 

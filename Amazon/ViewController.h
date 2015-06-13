@@ -9,13 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "BucketListTableViewCell.h"
 
-@interface ViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate>
+@class CBStoreHouseRefreshControl;
+
+@interface ViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate,UIScrollViewDelegate>
 
 @property (nonatomic,readwrite) NSArray *bucketList;
 @property (nonatomic,retain) NSString *selectedBucketName;
 @property (nonatomic,retain) UIImage *selectedImage;
 @property (assign,readwrite) BucketListTableViewCell *cell;
 @property (strong,readwrite) NSDateFormatter *formatter;
+@property (strong,readwrite) CBStoreHouseRefreshControl *storeHouseRefreshControl;
 
 @end
 

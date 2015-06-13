@@ -12,6 +12,9 @@
 #import "UIViewController+MMDrawerController.h"
 #import "PGSideDrawerController.h"
 #import "MBProgressHUD.h"
+#import "TSMessage.h"
+#import "TSMessageView.h"
+
 
 @interface AddBucketViewController ()
 
@@ -24,7 +27,8 @@
     self.navigationItem.title = @"Create Bucket";
     self.navigationController.navigationBar.topItem.title = @"";
     self.view.backgroundColor = [UIColor colorFromHexString:@"#F7F9F9"];
-    
+    [TSMessage setDefaultViewController:self];
+    [TSMessage setDelegate:self];
     // Do any additional setup after loading the view.
 }
 
@@ -68,12 +72,19 @@
 }
 */
 
--(void)showAlertWithMessage:(NSString *)message andWithResult:(NSString *) result {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:result message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+-(void)showAlertWithMessage:(NSString *)message andWithResult:(NSString *) result andType:(TSMessageNotificationType) type {
+    
+   /* UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:result message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    */
     dispatch_async(dispatch_get_main_queue(), ^{
         [MBProgressHUD hideHUDForView:self.view animated:YES];
-        [alertView show];
+     //   [alertView show];
+        [TSMessage showNotificationWithTitle:result
+                                    subtitle:message
+                                        type:type];
+
     });
+    
 
 }
 
@@ -83,9 +94,9 @@
      continueWithBlock:^id(BFTask *task) {
          NSLog(@"result is %@",task.result);
          if (task.error) {
-             [self showAlertWithMessage:@"Can not create bucket with this name" andWithResult:@"Error"];
+             [self showAlertWithMessage:@"Can not create bucket with this name" andWithResult:@"Error" andType:TSMessageNotificationTypeError];
          }else if(task.result) {
-                   [self showAlertWithMessage:@"Created bucket with name" andWithResult:@"Success"];
+                   [self showAlertWithMessage:@"Created bucket with name" andWithResult:@"Success" andType:TSMessageNotificationTypeSuccess];
          }
          return nil;
      }];

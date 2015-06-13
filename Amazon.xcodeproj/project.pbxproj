@@ -19,6 +19,7 @@
 		38984A7E1B2ABA2200E61DA7 /* AddBucketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38984A7D1B2ABA2200E61DA7 /* AddBucketViewController.m */; };
 		38984A821B2AE33600E61DA7 /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38984A801B2AE33600E61DA7 /* CustomCellTableViewCell.m */; };
 		38984A831B2AE33600E61DA7 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38984A811B2AE33600E61DA7 /* CustomCellTableViewCell.xib */; };
+		38AFF2861B2C5DC300DB1546 /* storehouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38AFF2851B2C5DC300DB1546 /* storehouse.plist */; };
 		38BB286F1B242FD7005541D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB286E1B242FD7005541D1 /* main.m */; };
 		38BB28721B242FD7005541D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB28711B242FD7005541D1 /* AppDelegate.m */; };
 		38BB28751B242FD7005541D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BB28741B242FD7005541D1 /* ViewController.m */; };
@@ -60,6 +61,7 @@
 		38984A7F1B2AE33600E61DA7 /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
 		38984A801B2AE33600E61DA7 /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
 		38984A811B2AE33600E61DA7 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		38AFF2851B2C5DC300DB1546 /* storehouse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = storehouse.plist; sourceTree = "<group>"; };
 		38BB28691B242FD7005541D1 /* Amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BB286D1B242FD7005541D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38BB286E1B242FD7005541D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,10 +125,10 @@
 		38984A7B1B2AB9D400E61DA7 /* Add_Bucket */ = {
 			isa = PBXGroup;
 			children = (
-				38984A7C1B2ABA2200E61DA7 /* AddBucketViewController.h */,
 				38984A7F1B2AE33600E61DA7 /* CustomCellTableViewCell.h */,
 				38984A801B2AE33600E61DA7 /* CustomCellTableViewCell.m */,
 				38984A811B2AE33600E61DA7 /* CustomCellTableViewCell.xib */,
+				38984A7C1B2ABA2200E61DA7 /* AddBucketViewController.h */,
 				38984A7D1B2ABA2200E61DA7 /* AddBucketViewController.m */,
 			);
 			name = Add_Bucket;
@@ -135,6 +137,7 @@
 		38BB28601B242FD7005541D1 = {
 			isa = PBXGroup;
 			children = (
+				38AFF2851B2C5DC300DB1546 /* storehouse.plist */,
 				38984A7B1B2AB9D400E61DA7 /* Add_Bucket */,
 				38D60F391B2448EE00E34CFD /* AmazonCreds */,
 				3839D9521B24404C001B23E0 /* Entitlements.plist */,
@@ -311,6 +314,7 @@
 				383867251B26D35500C2EE10 /* Controllers in Resources */,
 				3839D9531B24404C001B23E0 /* Entitlements.plist in Resources */,
 				38BB28781B242FD7005541D1 /* Main.storyboard in Resources */,
+				38AFF2861B2C5DC300DB1546 /* storehouse.plist in Resources */,
 				38E894521B2999070082C143 /* MyCustomCell.xib in Resources */,
 				38BB287D1B242FD7005541D1 /* LaunchScreen.xib in Resources */,
 				38984A831B2AE33600E61DA7 /* CustomCellTableViewCell.xib in Resources */,

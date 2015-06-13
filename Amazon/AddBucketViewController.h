@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TSMessageView.h"
 
-@interface AddBucketViewController : UIViewController
+@interface AddBucketViewController : UIViewController <TSMessageViewProtocol>
 @property (weak, nonatomic) IBOutlet UIButton *createBucket;
 - (IBAction)createBucket:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UITextField *nameInput;
